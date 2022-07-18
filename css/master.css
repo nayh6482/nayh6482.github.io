@@ -1,0 +1,208 @@
+.max100width {
+  max-width: 100%;
+}
+
+#opening {
+  background-image: url("https://images.unsplash.com/photo-1589553749594-5e068d656124?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80");
+}
+
+.opening-contents {
+  padding: 7% 15%;
+}
+
+.center-align {
+  margin: auto;
+  text-align: center;
+}
+
+.block {
+  display: block;
+}
+
+.hding {
+  font-size: 12rem;
+  main-bottom: 0;
+  font-family: 'Prompt', sans-serif;
+}
+
+.sub-hding {
+  font-size: 3.6rem;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bolder;
+  padding-bottom: 1.6rem;
+}
+
+.prompt-bold {
+  font-family: 'Prompt', sans-serif;
+  font-weight: bolder;
+}
+
+.feat-title {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+.feat-subhding {
+  font-size: 4.8rem;
+  margin-bottom: 2rem;
+}
+
+.title-textbox {
+  width: 45%;
+  margin: auto;
+}
+
+.booknow {
+  width: 150px;
+  height: 75px;
+  font-size: 21px;
+  color: #264040;
+  background-color: rgba(255, 250, 240, 0.7);
+  margin: 1.6rem;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #CEF2FA;
+  color: #13303B;
+}
+
+p {
+  font-size: 1.2rem;
+  padding: 12px 12px 0 8px;
+}
+
+.rotund {
+  border-radius: 100%;
+  object-fit: fill;
+  width: 360px;
+  height: 360px;
+  padding-top: 3%;
+}
+
+.left-align {
+  text-align: right;
+}
+
+.narrower {
+  max-width: 80%;
+  margin: auto;
+}
+
+.contact-col {
+  margin-top: 6rem;
+  s
+}
+
+.body-content {
+  padding: 5% 10%;
+}
+
+#contact {
+  background-color: #16344b;
+  color: #fffbe5;
+  height: 612px;
+}
+
+.faico {
+  font-size: 3rem;
+  padding: 15px 20px 0 15px;
+}
+
+.contactinfo {
+  font-size: 2rem;
+  color: #fffbe5;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.contactinfo:hover {
+  font-size: 2rem;
+  color: cornflowerblue;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.testm-text {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+#closing {
+  background-image: url("https://images.unsplash.com/photo-1514454529242-9e4677563e7b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  vertical-align: middle;
+}
+
+.cls-txt {
+  font-family: 'Prompt', sans-serif;
+  font-size: 6rem;
+  padding: 0 20%;
+}
+
+@media (max-width: 1200px) {
+  body {
+    max-width: 100%;
+  }
+
+  .subtitle {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  #opening {
+    text-align: center;
+  }
+
+  .opening-contents {
+    padding: 7% 0;
+  }
+
+  .hding {
+    font-size: 120px;
+    text-align: center;
+  }
+
+  .sub-hding {
+    font-size: 36px;
+  }
+
+  .contactinfo {
+    font-size: 24px;
+  }
+
+  .contactinfo:hover {
+    font-size: 24px;
+    color: cornflowerblue;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+
+  .caro-ctrl {
+    visibility: hidden;
+  }
+
+  .carousel-item {
+    max-width: 100%;
+  }
+
+  .testm-text {
+    max-width: 100%;
+    font-size: 18px;
+    padding: 0 0 24px 0;
+  }
+
+  .narrower {
+    padding: 0;
+  }
+}
+
+/* booking page */
+.booking-form {
+  width: 50%;
+  margin: auto;
+}
+
+li {
+  list-style-type: none;
+  /* padding: 3%; */
+}
